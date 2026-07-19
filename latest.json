@@ -1,0 +1,20 @@
+{
+  "apk_filename": "CoinCash-0.1.12-12.apk",
+  "release_notes": "• Update APK publik lewat GitHub (tanpa ZeroTier)\n• Cek update tampil list Apa yang baru\n• Klik Update sekarang = unduh in-app + installer otomatis\n• Channel: github.com/0xakki/coincash-release\n• Port API 51000 / Web 51001 tetap",
+  "released_at": "2026-07-19",
+  "min_version_code": 1,
+  "apk_available": true,
+  "force_update": false,
+  "platform": "android",
+  "changelog": [
+    "Update APK publik lewat GitHub (tanpa ZeroTier)",
+    "Cek update tampil list Apa yang baru",
+    "Klik Update sekarang = unduh in-app + installer otomatis",
+    "Channel: github.com/0xakki/coincash-release",
+    "Port API 51000 / Web 51001 tetap"
+  ],
+  "repository": "https://github.com/0xakki/coincash-release",
+  "version_code": 12,
+  "version_name": "0.1.12",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.12/CoinCash-0.1.12-12.apk"
+}
