@@ -1,17 +1,18 @@
 {
   "platform": "android",
-  "version_name": "0.1.14",
-  "version_code": 14,
+  "version_name": "0.1.15",
+  "version_code": 15,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.14/CoinCash-0.1.14-14.apk",
-  "apk_filename": "CoinCash-0.1.14-14.apk",
-  "release_notes": "• Fix foto profil Android: simpan lokal stabil + upload data-URL\n• Upload avatar timeout 60s; gagal sync tidak reset ke default\n• Sync avatar tidak menimpa foto lokal pending\n• Izin kamera/galeri + READ_MEDIA_IMAGES",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.15/CoinCash-0.1.15-15.apk",
+  "apk_filename": "CoinCash-0.1.15-15.apk",
+  "release_notes": "• Laporan pengeluaran & investasi: filter periode custom (date range)\n• Yuna: animasi mengetik ala WhatsApp di header + bubble\n• Yuna: filter teks bersih (hapus simbol encoding aneh)\n• QR live scan + konfirmasi approve + sesi file-backed\n• SECURITY: APK rilis tanpa embed gateway key/secret (isi di Settings)",
   "changelog": [
-    "Fix foto profil Android: simpan lokal stabil + upload data-URL",
-    "Upload avatar timeout 60s; gagal sync tidak reset ke default",
-    "Sync avatar tidak menimpa foto lokal pending",
-    "Izin kamera/galeri + READ_MEDIA_IMAGES"
+    "Laporan pengeluaran & investasi: filter periode custom (date range)",
+    "Yuna: animasi mengetik ala WhatsApp di header + bubble",
+    "Yuna: filter teks bersih (hapus simbol encoding aneh)",
+    "QR live scan + konfirmasi approve + sesi file-backed",
+    "SECURITY: APK rilis tanpa embed gateway key/secret (isi di Settings)"
   ],
   "released_at": "2026-07-21",
   "apk_available": true,
