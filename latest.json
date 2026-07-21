@@ -1,17 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.13",
-  "version_code": 13,
+  "version_name": "0.1.14",
+  "version_code": 14,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.13/CoinCash-0.1.13-13.apk",
-  "apk_filename": "CoinCash-0.1.13-13.apk",
-  "release_notes": "• Portfolio sync 2 arah: full-replace dari server + cache SQLite (hapus di web ikut hilang di Android)\n• Local notification task budget hari ini + overdue reminder\n• Soft refresh tab Investasi + banner stale sync\n• Monitoring: banner task hari ini + tap notif buka tab Monitoring",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.14/CoinCash-0.1.14-14.apk",
+  "apk_filename": "CoinCash-0.1.14-14.apk",
+  "release_notes": "• Fix foto profil Android: simpan lokal stabil + upload data-URL\n• Upload avatar timeout 60s; gagal sync tidak reset ke default\n• Sync avatar tidak menimpa foto lokal pending\n• Izin kamera/galeri + READ_MEDIA_IMAGES",
   "changelog": [
-    "Portfolio sync 2 arah: full-replace dari server + cache SQLite (hapus di web ikut hilang di Android)",
-    "Local notification task budget hari ini + overdue reminder",
-    "Soft refresh tab Investasi + banner stale sync",
-    "Monitoring: banner task hari ini + tap notif buka tab Monitoring"
+    "Fix foto profil Android: simpan lokal stabil + upload data-URL",
+    "Upload avatar timeout 60s; gagal sync tidak reset ke default",
+    "Sync avatar tidak menimpa foto lokal pending",
+    "Izin kamera/galeri + READ_MEDIA_IMAGES"
   ],
   "released_at": "2026-07-21",
   "apk_available": true,
