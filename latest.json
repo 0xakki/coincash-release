@@ -1,20 +1,23 @@
 {
   "platform": "android",
-  "version_name": "0.1.15",
-  "version_code": 15,
+  "version_name": "0.1.16",
+  "version_code": 16,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.15/CoinCash-0.1.15-15.apk",
-  "apk_filename": "CoinCash-0.1.15-15.apk",
-  "release_notes": "• Laporan pengeluaran & investasi: filter periode custom (date range)\n• Yuna: animasi mengetik ala WhatsApp di header + bubble\n• Yuna: filter teks bersih (hapus simbol encoding aneh)\n• QR live scan + konfirmasi approve + sesi file-backed\n• SECURITY: APK rilis tanpa embed gateway key/secret (isi di Settings)",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.16/CoinCash-0.1.16-16.apk",
+  "apk_filename": "CoinCash-0.1.16-16.apk",
+  "sha256": "9e45160827706dd5c647fd2757ec429a8ceb0d8c658ecc6c7357a267f3314393",
+  "release_notes": "• Perbaikan keamanan besar: token & gateway key pindah ke Android Keystore\n• Logout kini menghapus seluruh data lokal (DB, cache, foto profil)\n• Anti screenshot/rekam layar (FLAG_SECURE) di semua layar\n• Backup Android dimatikan - data tidak ikut adb backup / cloud\n• Verifikasi SHA-256 + allowlist host GitHub sebelum install update\n• Kode Dart di-obfuscate di build rilis\n• Backend: tutup celah eskalasi role, registrasi mandiri dimatikan, rate limit QR diperketat",
   "changelog": [
-    "Laporan pengeluaran & investasi: filter periode custom (date range)",
-    "Yuna: animasi mengetik ala WhatsApp di header + bubble",
-    "Yuna: filter teks bersih (hapus simbol encoding aneh)",
-    "QR live scan + konfirmasi approve + sesi file-backed",
-    "SECURITY: APK rilis tanpa embed gateway key/secret (isi di Settings)"
+    "Perbaikan keamanan besar: token & gateway key pindah ke Android Keystore",
+    "Logout kini menghapus seluruh data lokal (DB, cache, foto profil)",
+    "Anti screenshot/rekam layar (FLAG_SECURE) di semua layar",
+    "Backup Android dimatikan - data tidak ikut adb backup / cloud",
+    "Verifikasi SHA-256 + allowlist host GitHub sebelum install update",
+    "Kode Dart di-obfuscate di build rilis",
+    "Backend: tutup celah eskalasi role, registrasi mandiri dimatikan, rate limit QR diperketat"
   ],
-  "released_at": "2026-07-21",
+  "released_at": "2026-07-26",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
