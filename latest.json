@@ -1,23 +1,21 @@
 {
   "platform": "android",
-  "version_name": "0.1.16",
-  "version_code": 16,
+  "version_name": "0.1.17",
+  "version_code": 17,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.16/CoinCash-0.1.16-16.apk",
-  "apk_filename": "CoinCash-0.1.16-16.apk",
-  "sha256": "9e45160827706dd5c647fd2757ec429a8ceb0d8c658ecc6c7357a267f3314393",
-  "release_notes": "• Perbaikan keamanan besar: token & gateway key pindah ke Android Keystore\n• Logout kini menghapus seluruh data lokal (DB, cache, foto profil)\n• Anti screenshot/rekam layar (FLAG_SECURE) di semua layar\n• Backup Android dimatikan - data tidak ikut adb backup / cloud\n• Verifikasi SHA-256 + allowlist host GitHub sebelum install update\n• Kode Dart di-obfuscate di build rilis\n• Backend: tutup celah eskalasi role, registrasi mandiri dimatikan, rate limit QR diperketat",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.17/CoinCash-0.1.17-17.apk",
+  "apk_filename": "CoinCash-0.1.17-17.apk",
+  "sha256": "81e0bc68379562a04cf1ca89dba3751fa52810e4f4b620ea18a9218d0a8e47f6",
+  "release_notes": "• Screenshot & rekam layar diaktifkan lagi (FLAG_SECURE dilepas)\n• Nominal item bertanda 'estimasi' kini tampil di Budget > Plan & Item, tidak lagi Rp 0\n• Total 'Kebutuhan' & 'Sisa' ikut menghitung item estimasi\n• Tab Monitoring menampilkan nominal estimasi pada kartu & prefill konfirmasi\n• App berhenti ping backend tiap 4 detik saat ditinggal ke background (hemat baterai & kuota)",
   "changelog": [
-    "Perbaikan keamanan besar: token & gateway key pindah ke Android Keystore",
-    "Logout kini menghapus seluruh data lokal (DB, cache, foto profil)",
-    "Anti screenshot/rekam layar (FLAG_SECURE) di semua layar",
-    "Backup Android dimatikan - data tidak ikut adb backup / cloud",
-    "Verifikasi SHA-256 + allowlist host GitHub sebelum install update",
-    "Kode Dart di-obfuscate di build rilis",
-    "Backend: tutup celah eskalasi role, registrasi mandiri dimatikan, rate limit QR diperketat"
+    "Screenshot & rekam layar diaktifkan lagi (FLAG_SECURE dilepas)",
+    "Nominal item bertanda 'estimasi' kini tampil di Budget > Plan & Item, tidak lagi Rp 0",
+    "Total 'Kebutuhan' & 'Sisa' ikut menghitung item estimasi",
+    "Tab Monitoring menampilkan nominal estimasi pada kartu & prefill konfirmasi",
+    "App berhenti ping backend tiap 4 detik saat ditinggal ke background (hemat baterai & kuota)"
   ],
-  "released_at": "2026-07-26",
+  "released_at": "2026-07-31",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
