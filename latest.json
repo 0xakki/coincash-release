@@ -1,21 +1,18 @@
 {
   "platform": "android",
-  "version_name": "0.1.17",
-  "version_code": 17,
+  "version_name": "0.1.18",
+  "version_code": 18,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.17/CoinCash-0.1.17-17.apk",
-  "apk_filename": "CoinCash-0.1.17-17.apk",
-  "sha256": "81e0bc68379562a04cf1ca89dba3751fa52810e4f4b620ea18a9218d0a8e47f6",
-  "release_notes": "• Screenshot & rekam layar diaktifkan lagi (FLAG_SECURE dilepas)\n• Nominal item bertanda 'estimasi' kini tampil di Budget > Plan & Item, tidak lagi Rp 0\n• Total 'Kebutuhan' & 'Sisa' ikut menghitung item estimasi\n• Tab Monitoring menampilkan nominal estimasi pada kartu & prefill konfirmasi\n• App berhenti ping backend tiap 4 detik saat ditinggal ke background (hemat baterai & kuota)",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.18/CoinCash-0.1.18-18.apk",
+  "apk_filename": "CoinCash-0.1.18-18.apk",
+  "sha256": "a965cbbc0c5e55e01ff1a41b7d32418f96fdd1a6b07112b83d4df2cb7125e487",
+  "release_notes": "• Fitur Lupa/Reset Password: minta link reset lewat email (Resend), atau tempel token/link reset langsung di app\n• Halaman web coincash.testdev.web.id juga dapat fitur yang sama",
   "changelog": [
-    "Screenshot & rekam layar diaktifkan lagi (FLAG_SECURE dilepas)",
-    "Nominal item bertanda 'estimasi' kini tampil di Budget > Plan & Item, tidak lagi Rp 0",
-    "Total 'Kebutuhan' & 'Sisa' ikut menghitung item estimasi",
-    "Tab Monitoring menampilkan nominal estimasi pada kartu & prefill konfirmasi",
-    "App berhenti ping backend tiap 4 detik saat ditinggal ke background (hemat baterai & kuota)"
+    "Fitur Lupa/Reset Password: minta link reset lewat email (Resend), atau tempel token/link reset langsung di app",
+    "Halaman web coincash.testdev.web.id juga dapat fitur yang sama"
   ],
-  "released_at": "2026-07-31",
+  "released_at": "2026-08-31",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
