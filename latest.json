@@ -1,18 +1,20 @@
 {
   "platform": "android",
-  "version_name": "0.1.18",
-  "version_code": 18,
+  "version_name": "0.1.19",
+  "version_code": 19,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.18/CoinCash-0.1.18-18.apk",
-  "apk_filename": "CoinCash-0.1.18-18.apk",
-  "sha256": "a965cbbc0c5e55e01ff1a41b7d32418f96fdd1a6b07112b83d4df2cb7125e487",
-  "release_notes": "• Fitur Lupa/Reset Password: minta link reset lewat email (Resend), atau tempel token/link reset langsung di app\n• Halaman web coincash.testdev.web.id juga dapat fitur yang sama",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.19/CoinCash-0.1.19-19.apk",
+  "apk_filename": "CoinCash-0.1.19-19.apk",
+  "sha256": "06d9ff96292cd57f1bb1c73c43e5deaa14baf06f059ec083a58f4d075d7b5ab7",
+  "release_notes": "• Fix OCR: nominal struk Alfamart tidak lagi salah baca nomor telepon toko sebagai total\n• Parser struk Indomaret lebih presisi (deteksi label KEMBALI, format titik dua)\n• Progress scan struk kini menampilkan tahapan proses (baca gambar - kirim ke AI)\n• Validasi silang nominal hasil OCR server vs lokal untuk cegah salah baca",
   "changelog": [
-    "Fitur Lupa/Reset Password: minta link reset lewat email (Resend), atau tempel token/link reset langsung di app",
-    "Halaman web coincash.testdev.web.id juga dapat fitur yang sama"
+    "Fix OCR: nominal struk Alfamart tidak lagi salah baca nomor telepon toko sebagai total",
+    "Parser struk Indomaret lebih presisi (deteksi label KEMBALI, format titik dua)",
+    "Progress scan struk kini menampilkan tahapan proses (baca gambar - kirim ke AI)",
+    "Validasi silang nominal hasil OCR server vs lokal untuk cegah salah baca"
   ],
-  "released_at": "2026-08-31",
+  "released_at": "2026-09-04",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
