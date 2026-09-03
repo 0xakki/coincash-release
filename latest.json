@@ -1,18 +1,16 @@
 {
   "platform": "android",
-  "version_name": "0.1.19",
-  "version_code": 19,
+  "version_name": "0.1.20",
+  "version_code": 20,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.19/CoinCash-0.1.19-19.apk",
-  "apk_filename": "CoinCash-0.1.19-19.apk",
-  "sha256": "06d9ff96292cd57f1bb1c73c43e5deaa14baf06f059ec083a58f4d075d7b5ab7",
-  "release_notes": "• Fix OCR: nominal struk Alfamart tidak lagi salah baca nomor telepon toko sebagai total\n• Parser struk Indomaret lebih presisi (deteksi label KEMBALI, format titik dua)\n• Progress scan struk kini menampilkan tahapan proses (baca gambar - kirim ke AI)\n• Validasi silang nominal hasil OCR server vs lokal untuk cegah salah baca",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.20/CoinCash-0.1.20-20.apk",
+  "apk_filename": "CoinCash-0.1.20-20.apk",
+  "sha256": "f80088f933413335fee598a24b0bc06dee292197129e628f3d6fee59cd32f45f",
+  "release_notes": "• Fix OCR: kode layanan konsumen di footer struk (KRITIK&SARAN) tidak lagi ke-parse jadi nominal\n• Fix kategori Master Data: rename/hapus kategori sekarang tersimpan ke server, tidak balik lagi ke nama lama",
   "changelog": [
-    "Fix OCR: nominal struk Alfamart tidak lagi salah baca nomor telepon toko sebagai total",
-    "Parser struk Indomaret lebih presisi (deteksi label KEMBALI, format titik dua)",
-    "Progress scan struk kini menampilkan tahapan proses (baca gambar - kirim ke AI)",
-    "Validasi silang nominal hasil OCR server vs lokal untuk cegah salah baca"
+    "Fix OCR: kode layanan konsumen di footer struk (KRITIK&SARAN) tidak lagi ke-parse jadi nominal",
+    "Fix kategori Master Data: rename/hapus kategori sekarang tersimpan ke server, tidak balik lagi ke nama lama"
   ],
   "released_at": "2026-09-04",
   "apk_available": true,
