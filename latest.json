@@ -1,20 +1,22 @@
 {
   "platform": "android",
-  "version_name": "0.1.22",
-  "version_code": 22,
+  "version_name": "0.1.23",
+  "version_code": 23,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.22/CoinCash-0.1.22-22.apk",
-  "apk_filename": "CoinCash-0.1.22-22.apk",
-  "sha256": "e03815fa24d47ad2b743252a0d4da9bbe5b6bb10c21c44bb3d994d082ee06272",
-  "release_notes": "• Fix parser struk: nilai total sekarang diambil dari baris TOTAL yang benar — 'Total Disc.', 'Subtotal', dan 'Total Item' tidak lagi salah kepilih sebagai total struk\n• Upload struk di web kirim file beneran ke server (sebelumnya cuma nama file, jadi hasil parse selalu nilai contoh)\n• Parser jauh lebih akurat untuk struk Alfamart, Indomaret, dan struk dengan OCR berantakan",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.23/CoinCash-0.1.23-23.apk",
+  "apk_filename": "CoinCash-0.1.23-23.apk",
+  "sha256": "e4fb40c563cf9455c8c1732918cd47e6d6bc1244b8df88b8fc191c27447efd57",
+  "release_notes": "• Lampiran struk: input transaksi bisa nempel foto struk (sampai 5 file) — isinya dilihat dari CoinCash web, di Android tampil keterangan 'ada lampiran'\n• Scan struk masih kadang miss? Sekarang ada jalur cadangan: lampirkan fotonya langsung ke transaksi\n• Perbaikan infrastruktur AI (Yuna): provider AI sekarang bisa dikelola dari web tanpa update app",
   "changelog": [
-    "Fix parser struk: baris 'Total Disc.'/'Subtotal' tidak lagi salah kepilih jadi total",
-    "Web: upload struk kirim file asli via multipart",
-    "API: /tradfi/receipt/parse jadi parser real (OCR + rule-based + AI refine)",
-    "Parser: footer kode layanan konsumen tidak pernah kepilih jadi total"
+    "Android: tombol 'Lampirkan foto struk' di form transaksi (maks 5 file, 5MB/file)",
+    "Android: badge 📎 + keterangan 'ada lampiran (lihat di web)' di daftar transaksi",
+    "Android: upload lampiran via multipart, tetap tersimpan walau upload gagal (transaksi utama aman)",
+    "Web: form lampiran + viewer modal (hanya web yang bisa lihat isi file)",
+    "Web/API: tabel ai_providers — kelola base_url, api_key, model fallback Yuna dari Settings",
+    "API: endpoint /attachments (upload, meta, file web-only)"
   ],
-  "released_at": "2026-09-05",
+  "released_at": "2026-09-10",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
