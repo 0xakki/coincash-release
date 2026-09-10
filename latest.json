@@ -1,18 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.25",
-  "version_code": 25,
+  "version_name": "0.1.26",
+  "version_code": 26,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.25/CoinCash-0.1.25-25.apk",
-  "apk_filename": "CoinCash-0.1.25-25.apk",
-  "sha256": "cf1155ec8a6254ae86c7f3567c70cf210a5185c53d4b16a9a81bec5636a3df1e",
-  "release_notes": "• Fix cek update: app sekarang menanyakan semua sumber manifest dan memakai versi tertinggi — tidak lagi terjebak cache CDN basi\n• Fix manifest backend yang ketinggalan versi\n• Fix scan struk: foto tidak terbaca → pesan jelas 'foto ulang / isi manual', bukan error 502",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.26/CoinCash-0.1.26-26.apk",
+  "apk_filename": "CoinCash-0.1.26-26.apk",
+  "sha256": "69843e18ca8173f27483075c323959844de0143a8bfdf05f6d4a0031035bfcdc",
+  "release_notes": "• Fix: upload lampiran struk di edit transaksi (sebelumnya hanya bisa saat buat transaksi baru)\n• Server: PUT manual-transactions menerima attachment_ids dan merge ke lampiran existing",
   "changelog": [
-    "Fix cek update: pilih version_code tertinggi dari semua sumber manifest (raw GitHub / jsDelivr / backend)",
-    "Fix backend /app/update: manifest app_release.json ketinggalan 4 rilis (0.1.20 → 0.1.25)",
-    "Fix scan struk: pesan 422 actionable saat teks tidak terbaca (dulu 502 menyesatkan)",
-    "Lampiran struk (dari 0.1.23): maks 5 file, isi dilihat dari CoinCash web"
+    "Fix: lampiran struk di edit transaksi sekarang benar-benar terupload (dulu dead loop 'coba lagi lewat edit')",
+    "Server: PUT /tradfi/manual-transactions/{id} menerima attachment_ids, merge non-overwrite",
+    "API tests: 211 passed"
   ],
   "released_at": "2026-09-10",
   "apk_available": true,
