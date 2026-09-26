@@ -1,19 +1,22 @@
 {
   "platform": "android",
-  "version_name": "0.1.26",
-  "version_code": 26,
+  "version_name": "0.1.29",
+  "version_code": 29,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.26/CoinCash-0.1.26-26.apk",
-  "apk_filename": "CoinCash-0.1.26-26.apk",
-  "sha256": "69843e18ca8173f27483075c323959844de0143a8bfdf05f6d4a0031035bfcdc",
-  "release_notes": "• Fix: upload lampiran struk di edit transaksi (sebelumnya hanya bisa saat buat transaksi baru)\n• Server: PUT manual-transactions menerima attachment_ids dan merge ke lampiran existing",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.29/CoinCash-0.1.29-29.apk",
+  "apk_filename": "CoinCash-0.1.29-29.apk",
+  "sha256": "6aba3ae218bd04f41b2bd42d5b2d7deb11055c8f41fd3706c51f998b71624ae1",
+  "release_notes": "• Filter periode di Transaksi & Investasi: Bulan ini/Lalu, 30/90 hari, Tahun ini, Custom\n• Perbaikan chart investasi multi-portfolio: tidak lagi naik-turun palsu\n• Export PDF baru: laporan rapi per periode dengan pilihan section & nomor halaman\n• Ringkasan pinjaman investasi di tab Investasi\n• Tombol hapus berwarna destruktif + pesan error yang ramah\n• Pull-to-refresh di Transaksi + perapian UI Laporan",
   "changelog": [
-    "Fix: lampiran struk di edit transaksi sekarang benar-benar terupload (dulu dead loop 'coba lagi lewat edit')",
-    "Server: PUT /tradfi/manual-transactions/{id} menerima attachment_ids, merge non-overwrite",
-    "API tests: 211 passed"
+    "Filter periode di Transaksi & Investasi: Bulan ini/Lalu, 30/90 hari, Tahun ini, Custom",
+    "Perbaikan chart investasi multi-portfolio: tidak lagi naik-turun palsu",
+    "Export PDF baru: laporan rapi per periode dengan pilihan section & nomor halaman",
+    "Ringkasan pinjaman investasi di tab Investasi",
+    "Tombol hapus berwarna destruktif + pesan error yang ramah",
+    "Pull-to-refresh di Transaksi + perapian UI Laporan"
   ],
-  "released_at": "2026-09-10",
+  "released_at": "2026-09-26",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
