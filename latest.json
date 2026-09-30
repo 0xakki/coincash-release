@@ -1,22 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.29",
-  "version_code": 29,
+  "version_name": "0.1.30",
+  "version_code": 30,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.29/CoinCash-0.1.29-29.apk",
-  "apk_filename": "CoinCash-0.1.29-29.apk",
-  "sha256": "6aba3ae218bd04f41b2bd42d5b2d7deb11055c8f41fd3706c51f998b71624ae1",
-  "release_notes": "• Filter periode di Transaksi & Investasi: Bulan ini/Lalu, 30/90 hari, Tahun ini, Custom\n• Perbaikan chart investasi multi-portfolio: tidak lagi naik-turun palsu\n• Export PDF baru: laporan rapi per periode dengan pilihan section & nomor halaman\n• Ringkasan pinjaman investasi di tab Investasi\n• Tombol hapus berwarna destruktif + pesan error yang ramah\n• Pull-to-refresh di Transaksi + perapian UI Laporan",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.30/CoinCash-0.1.30-30.apk",
+  "apk_filename": "CoinCash-0.1.30-30.apk",
+  "sha256": "90dc6e6ad218676d1314aff8012cae22e7065a20caca16df41c9b4f9b14ef3a4",
+  "release_notes": "• Perbaikan: plan Budget kini otomatis mengikuti tanggal hari ini, bukan plan terbaru dibuat|Perbaikan: fallback plan — tidak lagi melompat ke plan masa depan|Sinkron: logika yang sama diterapkan & diuji di Web",
   "changelog": [
-    "Filter periode di Transaksi & Investasi: Bulan ini/Lalu, 30/90 hari, Tahun ini, Custom",
-    "Perbaikan chart investasi multi-portfolio: tidak lagi naik-turun palsu",
-    "Export PDF baru: laporan rapi per periode dengan pilihan section & nomor halaman",
-    "Ringkasan pinjaman investasi di tab Investasi",
-    "Tombol hapus berwarna destruktif + pesan error yang ramah",
-    "Pull-to-refresh di Transaksi + perapian UI Laporan"
+    "Perbaikan: plan Budget kini otomatis mengikuti tanggal hari ini, bukan plan terbaru dibuat|Perbaikan: fallback plan — tidak lagi melompat ke plan masa depan|Sinkron: logika yang sama diterapkan & diuji di Web"
   ],
-  "released_at": "2026-09-26",
+  "released_at": "2026-09-30",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
