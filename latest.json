@@ -1,17 +1,19 @@
 {
   "platform": "android",
-  "version_name": "0.1.30",
-  "version_code": 30,
+  "version_name": "0.1.31",
+  "version_code": 31,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.30/CoinCash-0.1.30-30.apk",
-  "apk_filename": "CoinCash-0.1.30-30.apk",
-  "sha256": "90dc6e6ad218676d1314aff8012cae22e7065a20caca16df41c9b4f9b14ef3a4",
-  "release_notes": "• Perbaikan: plan Budget kini otomatis mengikuti tanggal hari ini, bukan plan terbaru dibuat|Perbaikan: fallback plan — tidak lagi melompat ke plan masa depan|Sinkron: logika yang sama diterapkan & diuji di Web",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.31/CoinCash-0.1.31-31.apk",
+  "apk_filename": "CoinCash-0.1.31-31.apk",
+  "sha256": "2ce27a9481da2f396f54b5bf026946dcefec1585bb2db7f1a392b3a8f5a72bad",
+  "release_notes": "• Perbaikan: role & nama profil kini diambil dari server (akun admin tidak lagi tampil sebagai USER)\n• Login: kolom email tidak lagi terisi otomatis\n• Profil: pilihan role dihapus (hanya admin via web yang bisa ubah role)",
   "changelog": [
-    "Perbaikan: plan Budget kini otomatis mengikuti tanggal hari ini, bukan plan terbaru dibuat|Perbaikan: fallback plan — tidak lagi melompat ke plan masa depan|Sinkron: logika yang sama diterapkan & diuji di Web"
+    "Perbaikan: role & nama profil kini diambil dari server (akun admin tidak lagi tampil sebagai USER)",
+    "Login: kolom email tidak lagi terisi otomatis",
+    "Profil: pilihan role dihapus (hanya admin via web yang bisa ubah role)"
   ],
-  "released_at": "2026-09-30",
+  "released_at": "2026-10-05",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
