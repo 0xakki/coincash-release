@@ -6,14 +6,17 @@
   "force_update": false,
   "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.31/CoinCash-0.1.31-31.apk",
   "apk_filename": "CoinCash-0.1.31-31.apk",
-  "sha256": "2ce27a9481da2f396f54b5bf026946dcefec1585bb2db7f1a392b3a8f5a72bad",
-  "release_notes": "• Perbaikan: role & nama profil kini diambil dari server (akun admin tidak lagi tampil sebagai USER)\n• Login: kolom email tidak lagi terisi otomatis\n• Profil: pilihan role dihapus (hanya admin via web yang bisa ubah role)",
+  "sha256": "59e83f16815ec40cae2740593769659e4b4306f89d708f464664ce174a13c7ea",
+  "release_notes": "• Struktur data baru: transfer antar kantong 2 kaki atomik\n• Quick-add sekali tap + Inbox\n• Hitung dompet berlabel (selisih = penyesuaian)\n• Tutup Bulan dan Fund\n• Catat cepat via Yuna teks\n• Tangkap notifikasi transaksi (opsional, default OFF)",
   "changelog": [
-    "Perbaikan: role & nama profil kini diambil dari server (akun admin tidak lagi tampil sebagai USER)",
-    "Login: kolom email tidak lagi terisi otomatis",
-    "Profil: pilihan role dihapus (hanya admin via web yang bisa ubah role)"
+    "Struktur data baru: transfer antar kantong 2 kaki atomik",
+    "Quick-add sekali tap + Inbox",
+    "Hitung dompet berlabel (selisih = penyesuaian)",
+    "Tutup Bulan dan Fund",
+    "Catat cepat via Yuna teks",
+    "Tangkap notifikasi transaksi (opsional, default OFF)"
   ],
-  "released_at": "2026-10-05",
+  "released_at": "2026-10-06",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
