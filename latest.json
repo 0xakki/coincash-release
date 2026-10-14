@@ -6,7 +6,7 @@
   "force_update": false,
   "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.36/CoinCash-0.1.36-36.apk",
   "apk_filename": "CoinCash-0.1.36-36.apk",
-  "sha256": "767cb5877e4a185520f25919f6ef32fd446e67409e2e8c09c1667c148d8537e6",
+  "sha256": "120d25dc840c7b3fc1f0fe115830da249b804592eab42b603e4b6afbc833c627",
   "release_notes": "• Saldo kantong Cash di HP kini sama dengan web: transaksi settlement yang belum berpoket ikut dihitung\n• Kantong, kategori, budget, dan transfer yang dibuat saat offline tidak lagi hilang — tersimpan + masuk antrean sinkronisasi\n• Edit transaksi yang gagal tidak lagi terlihat berhasil; kegagalan kini tercatat di status sinkronisasi\n• Cicilan & pelunasan pinjaman benar-benar sampai server (sebelumnya gagal 404 karena memakai ID lokal)\n• Kategori Bonus & Investasi mengikuti web (pemasukan); rename kategori tidak lagi menghapus data kantong transaksi\n• Antrean upload tidak berhenti di 50 item dan kategori tidak lagi tertimpa daftar kosong dari server",
   "changelog": [
     "Saldo kantong Cash di HP kini sama dengan web: transaksi settlement yang belum berpoket ikut dihitung",
