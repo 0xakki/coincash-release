@@ -1,19 +1,22 @@
 {
   "platform": "android",
-  "version_name": "0.1.34",
-  "version_code": 34,
+  "version_name": "0.1.36",
+  "version_code": 36,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.34/CoinCash-0.1.34-34.apk",
-  "apk_filename": "CoinCash-0.1.34-34.apk",
-  "sha256": "f529b756b19e16658699e88f99f398f45a538742be10d287a029c0dbdab2ed9c",
-  "release_notes": "• Animasi baru di seluruh layar: kartu muncul bertahap, angka berhitung, grafik tergambar\n• Detail tampilan disesuaikan dengan desain terbaru\n• Sinkron dengan web terbaru",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.36/CoinCash-0.1.36-36.apk",
+  "apk_filename": "CoinCash-0.1.36-36.apk",
+  "sha256": "767cb5877e4a185520f25919f6ef32fd446e67409e2e8c09c1667c148d8537e6",
+  "release_notes": "• Saldo kantong Cash di HP kini sama dengan web: transaksi settlement yang belum berpoket ikut dihitung\n• Kantong, kategori, budget, dan transfer yang dibuat saat offline tidak lagi hilang — tersimpan + masuk antrean sinkronisasi\n• Edit transaksi yang gagal tidak lagi terlihat berhasil; kegagalan kini tercatat di status sinkronisasi\n• Cicilan & pelunasan pinjaman benar-benar sampai server (sebelumnya gagal 404 karena memakai ID lokal)\n• Kategori Bonus & Investasi mengikuti web (pemasukan); rename kategori tidak lagi menghapus data kantong transaksi\n• Antrean upload tidak berhenti di 50 item dan kategori tidak lagi tertimpa daftar kosong dari server",
   "changelog": [
-    "Animasi baru di seluruh layar: kartu muncul bertahap, angka berhitung, grafik tergambar",
-    "Detail tampilan disesuaikan dengan desain terbaru",
-    "Sinkron dengan web terbaru"
+    "Saldo kantong Cash di HP kini sama dengan web: transaksi settlement yang belum berpoket ikut dihitung",
+    "Kantong, kategori, budget, dan transfer yang dibuat saat offline tidak lagi hilang — tersimpan + masuk antrean sinkronisasi",
+    "Edit transaksi yang gagal tidak lagi terlihat berhasil; kegagalan kini tercatat di status sinkronisasi",
+    "Cicilan & pelunasan pinjaman benar-benar sampai server (sebelumnya gagal 404 karena memakai ID lokal)",
+    "Kategori Bonus & Investasi mengikuti web (pemasukan); rename kategori tidak lagi menghapus data kantong transaksi",
+    "Antrean upload tidak berhenti di 50 item dan kategori tidak lagi tertimpa daftar kosong dari server"
   ],
-  "released_at": "2026-10-06",
+  "released_at": "2026-10-14",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
