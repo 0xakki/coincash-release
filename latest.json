@@ -1,22 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.36",
-  "version_code": 36,
+  "version_name": "0.1.37",
+  "version_code": 37,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.36/CoinCash-0.1.36-36.apk",
-  "apk_filename": "CoinCash-0.1.36-36.apk",
-  "sha256": "120d25dc840c7b3fc1f0fe115830da249b804592eab42b603e4b6afbc833c627",
-  "release_notes": "• Saldo kantong Cash di HP kini sama dengan web: transaksi settlement yang belum berpoket ikut dihitung\n• Kantong, kategori, budget, dan transfer yang dibuat saat offline tidak lagi hilang — tersimpan + masuk antrean sinkronisasi\n• Edit transaksi yang gagal tidak lagi terlihat berhasil; kegagalan kini tercatat di status sinkronisasi\n• Cicilan & pelunasan pinjaman benar-benar sampai server (sebelumnya gagal 404 karena memakai ID lokal)\n• Kategori Bonus & Investasi mengikuti web (pemasukan); rename kategori tidak lagi menghapus data kantong transaksi\n• Antrean upload tidak berhenti di 50 item dan kategori tidak lagi tertimpa daftar kosong dari server",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.37/CoinCash-0.1.37-37.apk",
+  "apk_filename": "CoinCash-0.1.37-37.apk",
+  "sha256": "596a7a596fe7242180cc484638d23360ae4db293d06f9c915b4fec44157bc29b",
+  "release_notes": "• Fix sync checklist budgeting: pull-to-refresh, gabung refresh paralel, retry monitor",
   "changelog": [
-    "Saldo kantong Cash di HP kini sama dengan web: transaksi settlement yang belum berpoket ikut dihitung",
-    "Kantong, kategori, budget, dan transfer yang dibuat saat offline tidak lagi hilang — tersimpan + masuk antrean sinkronisasi",
-    "Edit transaksi yang gagal tidak lagi terlihat berhasil; kegagalan kini tercatat di status sinkronisasi",
-    "Cicilan & pelunasan pinjaman benar-benar sampai server (sebelumnya gagal 404 karena memakai ID lokal)",
-    "Kategori Bonus & Investasi mengikuti web (pemasukan); rename kategori tidak lagi menghapus data kantong transaksi",
-    "Antrean upload tidak berhenti di 50 item dan kategori tidak lagi tertimpa daftar kosong dari server"
+    "Fix sync checklist budgeting: pull-to-refresh, gabung refresh paralel, retry monitor"
   ],
-  "released_at": "2026-10-14",
+  "released_at": "2026-10-21",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
