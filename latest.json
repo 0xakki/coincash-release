@@ -1,17 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.37",
-  "version_code": 37,
+  "version_name": "0.1.38",
+  "version_code": 39,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.37/CoinCash-0.1.37-37.apk",
-  "apk_filename": "CoinCash-0.1.37-37.apk",
-  "sha256": "596a7a596fe7242180cc484638d23360ae4db293d06f9c915b4fec44157bc29b",
-  "release_notes": "• Fix sync checklist budgeting: pull-to-refresh, gabung refresh paralel, retry monitor",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.38/CoinCash-0.1.38-39.apk",
+  "apk_filename": "CoinCash-0.1.38-39.apk",
+  "sha256": "1d7579c71586207dd7dcec5cb9d745bbe660cfde0ad7256dbc4b94fbec8ef6d7",
+  "release_notes": "• Perbaikan sync nyangkut: item upload ditolak server dibuang dari antrean + auto-retry saat sync gagal sebagian",
   "changelog": [
-    "Fix sync checklist budgeting: pull-to-refresh, gabung refresh paralel, retry monitor"
+    "Perbaikan sync nyangkut: item upload ditolak server dibuang dari antrean + auto-retry saat sync gagal sebagian"
   ],
-  "released_at": "2026-10-21",
+  "released_at": "2026-11-04",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
