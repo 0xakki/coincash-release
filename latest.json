@@ -1,16 +1,16 @@
 {
   "platform": "android",
-  "version_name": "0.1.39",
-  "version_code": 40,
+  "version_name": "0.1.40",
+  "version_code": 41,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.39/CoinCash-0.1.39-40.apk",
-  "apk_filename": "CoinCash-0.1.39-40.apk",
-  "sha256": "7ae80190fb6f1fb329eb8c93cbc07fab112c58ebf0338a0cc4d25a2e9d119edb",
-  "release_notes": "• Fitur Kirim masukan / lapor error di Pengaturan (diagnostik sync terlampir otomatis)\n• Perbaikan sync nyangkut: item upload ditolak server dibuang + auto-retry",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.40/CoinCash-0.1.40-41.apk",
+  "apk_filename": "CoinCash-0.1.40-41.apk",
+  "sha256": "a7a4cc84c058e7dfbac533567d3b068f38449da9d9ca032ba02069cee05f6a26",
+  "release_notes": "• Perbaikan sync nyangkut: cicilan pinjaman ditolak server (nominal >2 desimal) kini dibulatkan, item ditolak dibuang dari antrean\n• Kirim masukan / lapor error di Pengaturan",
   "changelog": [
-    "Fitur Kirim masukan / lapor error di Pengaturan (diagnostik sync terlampir otomatis)",
-    "Perbaikan sync nyangkut: item upload ditolak server dibuang + auto-retry"
+    "Perbaikan sync nyangkut: cicilan pinjaman ditolak server (nominal >2 desimal) kini dibulatkan, item ditolak dibuang dari antrean",
+    "Kirim masukan / lapor error di Pengaturan"
   ],
   "released_at": "2026-11-05",
   "apk_available": true,
