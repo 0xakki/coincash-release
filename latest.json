@@ -1,18 +1,19 @@
 {
   "platform": "android",
-  "version_name": "0.1.40",
-  "version_code": 41,
+  "version_name": "0.1.41",
+  "version_code": 42,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.40/CoinCash-0.1.40-41.apk",
-  "apk_filename": "CoinCash-0.1.40-41.apk",
-  "sha256": "a7a4cc84c058e7dfbac533567d3b068f38449da9d9ca032ba02069cee05f6a26",
-  "release_notes": "• Perbaikan sync nyangkut: cicilan pinjaman ditolak server (nominal >2 desimal) kini dibulatkan, item ditolak dibuang dari antrean\n• Kirim masukan / lapor error di Pengaturan",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.41/CoinCash-0.1.41-42.apk",
+  "apk_filename": "CoinCash-0.1.41-42.apk",
+  "sha256": "ef8eb19fcbd4bf99e96af77bd9e20cbeb6a3f60b14d7cd225e8e84e2231d8677",
+  "release_notes": "• Data cloud jadi prioritas: perubahan dari web otomatis masuk ke HP (auto-sync tiap 45 detik, saat pindah tab & saat koneksi pulih)\n• Data lokal hanya cadangan: dicoba online 3x dulu, lalu dicoba lagi tiap 30 menit saat offline\n• Edit di dua sisi: perubahan dari Android tetap jadi prioritas",
   "changelog": [
-    "Perbaikan sync nyangkut: cicilan pinjaman ditolak server (nominal >2 desimal) kini dibulatkan, item ditolak dibuang dari antrean",
-    "Kirim masukan / lapor error di Pengaturan"
+    "Data cloud jadi prioritas: perubahan dari web otomatis masuk ke HP (auto-sync tiap 45 detik, saat pindah tab & saat koneksi pulih)",
+    "Data lokal hanya cadangan: dicoba online 3x dulu, lalu dicoba lagi tiap 30 menit saat offline",
+    "Edit di dua sisi: perubahan dari Android tetap jadi prioritas"
   ],
-  "released_at": "2026-11-05",
+  "released_at": "2026-11-06",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
