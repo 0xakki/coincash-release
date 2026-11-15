@@ -1,17 +1,18 @@
 {
   "platform": "android",
-  "version_name": "0.1.42",
-  "version_code": 43,
+  "version_name": "0.1.43",
+  "version_code": 44,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.42/CoinCash-0.1.42-43.apk",
-  "apk_filename": "CoinCash-0.1.42-43.apk",
-  "sha256": "cadeec2e2b784b1f3156277b371cb1e3b3702891ad3acc530b912cc9f9944557",
-  "release_notes": "• Tab Investasi kini Investment Fund; settlement pindah ke Finance Check; Tutup Bulan ambil jurnal Finance Check + bayar cicilan pinjaman kelipatan penuh",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.43/CoinCash-0.1.43-44.apk",
+  "apk_filename": "CoinCash-0.1.43-44.apk",
+  "sha256": "71506094d0e03ae137f067378a1a4bd1ed0ec66507f06f8efb39f65a35b74689",
+  "release_notes": "• Saldo Dashboard kini sama dengan web (ambil dari Finance Check)\n• Menu Kirim Masukan langsung ada di daftar Lainnya",
   "changelog": [
-    "Tab Investasi kini Investment Fund; settlement pindah ke Finance Check; Tutup Bulan ambil jurnal Finance Check + bayar cicilan pinjaman kelipatan penuh"
+    "Saldo Dashboard kini sama dengan web (ambil dari Finance Check)",
+    "Menu Kirim Masukan langsung ada di daftar Lainnya"
   ],
-  "released_at": "2026-11-08",
+  "released_at": "2026-11-15",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
