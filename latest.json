@@ -1,16 +1,15 @@
 {
   "platform": "android",
-  "version_name": "0.1.43",
-  "version_code": 44,
+  "version_name": "0.1.44",
+  "version_code": 45,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.43/CoinCash-0.1.43-44.apk",
-  "apk_filename": "CoinCash-0.1.43-44.apk",
-  "sha256": "71506094d0e03ae137f067378a1a4bd1ed0ec66507f06f8efb39f65a35b74689",
-  "release_notes": "• Saldo Dashboard kini sama dengan web (ambil dari Finance Check)\n• Menu Kirim Masukan langsung ada di daftar Lainnya",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.44/CoinCash-0.1.44-45.apk",
+  "apk_filename": "CoinCash-0.1.44-45.apk",
+  "sha256": "f12e390021bc7aaf375b9ab4482c56a7d9963b3ef43eee09850b2e4350e18340",
+  "release_notes": "• Logo baru CoinCash (ikon app, layar login & laporan PDF)",
   "changelog": [
-    "Saldo Dashboard kini sama dengan web (ambil dari Finance Check)",
-    "Menu Kirim Masukan langsung ada di daftar Lainnya"
+    "Logo baru CoinCash (ikon app, layar login & laporan PDF)"
   ],
   "released_at": "2026-11-15",
   "apk_available": true,
