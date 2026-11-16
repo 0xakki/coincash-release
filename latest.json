@@ -1,17 +1,19 @@
 {
   "platform": "android",
-  "version_name": "0.1.44",
-  "version_code": 45,
+  "version_name": "0.1.45",
+  "version_code": 46,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.44/CoinCash-0.1.44-45.apk",
-  "apk_filename": "CoinCash-0.1.44-45.apk",
-  "sha256": "f12e390021bc7aaf375b9ab4482c56a7d9963b3ef43eee09850b2e4350e18340",
-  "release_notes": "• Logo baru CoinCash (ikon app, layar login & laporan PDF)",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.45/CoinCash-0.1.45-46.apk",
+  "apk_filename": "CoinCash-0.1.45-46.apk",
+  "sha256": "ec9ff70b74dca5b26493bba60560975c979b2c21f426c8ad7237d45498c78417",
+  "release_notes": "• Finance Check: upload tidak lagi macet 'No jurnal sudah ada' (jurnal yang tertahan naik otomatis)\n• Kirim masukan: bisa lampirkan sampai 3 gambar/screenshot\n• Pengaturan dirapikan jadi tab + kontras tema terang diperbaiki",
   "changelog": [
-    "Logo baru CoinCash (ikon app, layar login & laporan PDF)"
+    "Finance Check: upload tidak lagi macet 'No jurnal sudah ada' (jurnal yang tertahan naik otomatis)",
+    "Kirim masukan: bisa lampirkan sampai 3 gambar/screenshot",
+    "Pengaturan dirapikan jadi tab + kontras tema terang diperbaiki"
   ],
-  "released_at": "2026-11-15",
+  "released_at": "2026-11-16",
   "apk_available": true,
   "repository": "https://github.com/0xakki/coincash-release"
 }
