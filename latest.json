@@ -1,17 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.45",
-  "version_code": 46,
+  "version_name": "0.1.46",
+  "version_code": 47,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.45/CoinCash-0.1.45-46.apk",
-  "apk_filename": "CoinCash-0.1.45-46.apk",
-  "sha256": "ec9ff70b74dca5b26493bba60560975c979b2c21f426c8ad7237d45498c78417",
-  "release_notes": "• Finance Check: upload tidak lagi macet 'No jurnal sudah ada' (jurnal yang tertahan naik otomatis)\n• Kirim masukan: bisa lampirkan sampai 3 gambar/screenshot\n• Pengaturan dirapikan jadi tab + kontras tema terang diperbaiki",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.46/CoinCash-0.1.46-47.apk",
+  "apk_filename": "CoinCash-0.1.46-47.apk",
+  "sha256": "3709c7b64041ecddb1997c53add5a6d33a7f7fe315a6927b51dfb068f97572e6",
+  "release_notes": "• Ring avatar profil jadi indikator koneksi: hijau online, kuning jaringan lemah, merah offline (ketuk untuk cek ulang)\n• Bar sinyal di atas layar dihapus supaya tampilan lebih bersih\n• Yuna Terminal kembali bisa dimuat",
   "changelog": [
-    "Finance Check: upload tidak lagi macet 'No jurnal sudah ada' (jurnal yang tertahan naik otomatis)",
-    "Kirim masukan: bisa lampirkan sampai 3 gambar/screenshot",
-    "Pengaturan dirapikan jadi tab + kontras tema terang diperbaiki"
+    "Ring avatar profil jadi indikator koneksi: hijau online, kuning jaringan lemah, merah offline (ketuk untuk cek ulang)",
+    "Bar sinyal di atas layar dihapus supaya tampilan lebih bersih",
+    "Yuna Terminal kembali bisa dimuat"
   ],
   "released_at": "2026-11-16",
   "apk_available": true,
