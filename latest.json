@@ -1,17 +1,17 @@
 {
   "platform": "android",
-  "version_name": "0.1.46",
-  "version_code": 47,
+  "version_name": "0.1.47",
+  "version_code": 48,
   "min_version_code": 1,
   "force_update": false,
-  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.46/CoinCash-0.1.46-47.apk",
-  "apk_filename": "CoinCash-0.1.46-47.apk",
-  "sha256": "3709c7b64041ecddb1997c53add5a6d33a7f7fe315a6927b51dfb068f97572e6",
-  "release_notes": "• Ring avatar profil jadi indikator koneksi: hijau online, kuning jaringan lemah, merah offline (ketuk untuk cek ulang)\n• Bar sinyal di atas layar dihapus supaya tampilan lebih bersih\n• Yuna Terminal kembali bisa dimuat",
+  "download_url": "https://github.com/0xakki/coincash-release/releases/download/v0.1.47/CoinCash-0.1.47-48.apk",
+  "apk_filename": "CoinCash-0.1.47-48.apk",
+  "sha256": "70e66bf0020937b96cfc3a9162aee9f5943947f2cd8a11a472ca9dc55a470ec2",
+  "release_notes": "• Animasi logo CoinCash saat loading & transisi login\n• Splash buka app pakai animasi logo\n• Semua indikator loading diganti animasi logo",
   "changelog": [
-    "Ring avatar profil jadi indikator koneksi: hijau online, kuning jaringan lemah, merah offline (ketuk untuk cek ulang)",
-    "Bar sinyal di atas layar dihapus supaya tampilan lebih bersih",
-    "Yuna Terminal kembali bisa dimuat"
+    "Animasi logo CoinCash saat loading & transisi login",
+    "Splash buka app pakai animasi logo",
+    "Semua indikator loading diganti animasi logo"
   ],
   "released_at": "2026-11-16",
   "apk_available": true,
